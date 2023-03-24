@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>My Bio Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
   </head>
   <body>
     <section class="hero">
@@ -24,61 +24,129 @@
         <a href="#reasons"><h3>Apply Reasons</h3></a>
       </div>
       <div class="quickLink myProgress">
-        <a href="#pregress"><h3>My Progress</h3></a>
+        <a href="#progress"><h3>My Progress</h3></a>
       </div>
     </div>
     <div class="container">
       <div class="cover" id="aboutMe">
         <div class="text">
           <div class="profile">
-            <img src="profile.jpg" alt="Profile Picture" />
-            <h1>John Doe</h1>
-            <h2>Web Developer</h2>
+            <h1>Li-Chen Chang</h1>
+            <h3>Web Editor</h3>
           </div>
           <div class="bio">
             <h3>About Me</h3>
             <p>
-              I am a web developer with 5 years of experience. I specialize in
-              HTML, CSS, JavaScript, and PHP. In my free time, I enjoy hiking
-              and reading.
+              A bilingual professional with a strong interest in website management and experiences in web publishing and managing for a B2B2C content website, e-commerce site testing and international customer service. I built up my interest in Tech, back when I was a digital marketer. I started to learn and build SEO structures for websites, and I developed my eagerness to understand more technical skills. 
+              I first set foot in the technical department as a QA intern in an e-commerce team in one of the most trustworthy media in Taiwan. With a strong interest in technology, and a solid knowledge of managing and optimising websites, I am ready to take on more challenges. 
             </p>
+            <h4>Skills:</h4>
+            <ul>
+              <li>✔️ Digital Marketing: web management, SEO, Google Analytics, Facebook ads, social media management
+</li>
+<li>✔️ Web Design: Figma, Responsive Web Design (RWD)</li>
+<li>✔️ Web Development: web publishing, HTML, CSS, SCSS, Bootstrap, JavaScript(ES6), React, Git/GitHub, WordPress</li>
+<li>✔️ Marketing: campaign management, content strategy, Email Marketing, event planning</li>
+<li>✔️ Testing: Test Planning, Exploratory Testing, Acceptance Testing, Jira</li>
+
           </div>
         </div>
       </div>
       <div class="cover color" id="reasons">
         <div class="text">
+          <div class="reasonToApply">
           <div class="profile">
-            <img src="profile.jpg" alt="Profile Picture" />
-            <h1>John Doe</h1>
-            <h2>Web Developer</h2>
+            <h2>Reasons for Applying this programme</h2>
           </div>
-          <div class="bio">
-            <h3>Reasons for Applying Founder and Coder Bootcamp</h3>
+            <h3>Why want to move into a web developer career?</h3>
+            <ul>
+              <li>✔️ Passionate about UI-friendly web design: When working on designing a web funnel as a digital marketer, I found I enjoy spending time finding an exciting and helpful new design and breaking down the important component. I don't have any technical background then but always want to know how that effect/design comes to life on the website.</li>
+              <li>✔️ My passion for learning technology and continuous learning: My first web-building tool is WordPress, and I had a great time with it. But the more I use WordPress, the more I feel something is missing. I am eager to learn more about those tools and even the logic behind them.  </li>
+              <li>✔️ Like to create things and solve problems: I used my free time to learn WordPress and enjoy the process of helping my client create a webpage from scratch. I know this is what I feel missing in the marketing job. I would be blessed to be put in a developed position that helps create something in demand. </li>
+              <li>✔️ Eager to apply knowledge in web development to meaningful projects that make an impact: I am taking development courses on and off because I had been moving countries and finding new life. I am now settled and ready to open my new career chapter and build up the knowledge I need for creating a meaningful project in real life. </li>
+            </ul>
+            <h3>Why Founder and Coder?</h3>
             <p>
-              I am a web developer with 5 years of experience. I specialize in
-              HTML, CSS, JavaScript, and PHP. In my free time, I enjoy hiking
-              and reading.
+             "Free bootcamp" and "job match", these are the two keywords I search on Google back in 2022.There are mayny options and I manage to focus one those have in-person event in London, which I believe can help me developer my communication skills, especially about how todiscuss the problem and explain my logic. Founder and Coder is one of them that standout, the welcoming community, online/in person pre-bootcamp events and the well design application process makes me believe its a organization is highly professional and will put effort on creating a friendly and helpful community. 
             </p>
           </div>
         </div>
       </div>
-      <div class="cover" id="progress">
-        <div class="text">
-          <div class="profile">
-            <img src="profile.jpg" alt="Profile Picture" />
-            <h1>John Doe</h1>
-            <h2>Web Developer</h2>
-          </div>
-          <div class="bio">
-            <h3>My progress in my application</h3>
-            <p>
-              I am a web developer with 5 years of experience. I specialize in
-              HTML, CSS, JavaScript, and PHP. In my free time, I enjoy hiking
-              and reading.
-            </p>
-          </div>
-        </div>
+      <div  id="progress">
+          <section id="gallery">
+            <h2>My projects</h2>
+            <div class="galleryContainer">
+              <div class="card">
+                <h4>Calculator</h4>
+                <section class="cardContent">
+                  <img src="./image/Calculator.png" alt="" />
+                  <section class="buttonArea">
+                    <button>
+                      <a
+                        target="_blank"
+                        href="https://lichenjoe.github.io/Calculator/"
+                        >Live Demo</a
+                      >
+                    </button>
+                    <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
+                  </section>
+                </section>
+                <section class="description">
+                  <p>This calculator works perfectly like any other calculator, you can control it through the keyboard or mouse click.</p>
+                </section>
+              </div>
+              <div class="card">
+                <h4>To-Do List</h4>
+                <section class="cardContent">
+                  <img src="./image/Todo List.png" alt="" />
+                  <section class="buttonArea">
+                    <button>
+                      <a
+                        target="_blank"
+                        href="https://lichenjoe.github.io/to-do_list/"
+                        >Live Demo</a
+                      >
+                    </button>
+                    <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
+                  </section>
+                </section>
+                <section class="description">
+                  <p>Vanilla JS project with Friedly UI design, local storage and multiple sorting features. </p>
+                </section>
+              </div>
+              <div class="card">
+                <h4>Travel_Journal</h4>
+                <section class="cardContent">
+                  <img src="./image/Travel Journal.png" alt="" />
+                  <section class="buttonArea">
+                    <button>
+                      <a target="_blank" href="https://lichenjoe.github.io/Travel_Journal/">Live Demo</a>
+                    </button>
+                    <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
+                  </section>
+                </section>
+                <section class="description">
+                  <p>This is a one page react app, created to practice component concept and React basic.</p>
+                </section>
+              </div>
+              <div class="card">
+                <h4>AVD Research</h4>
+                <section class="cardContent">
+                  <img src="./image/AVD Research.png" alt="" />
+                  <section class="buttonArea">
+                    <button>
+                      <a target="_blank" href="https://avdresearch.net/">Live Demo</a>
+                    </button>
+                    <button class="toggleButton" onclick="descriptionShow(this)">Description</button>
+                  </section>
+                </section>
+                <section class="description">
+                <p>AVD Research is a financial analysis site desinged for the site owner to build his professional image in the financial field.  </p>   
+              </section>
+            </div>
+          </section>
       </div>
     </div>
+    <script src="/app.js"></script>
   </body>
 </html>
